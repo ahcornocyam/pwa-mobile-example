@@ -1,128 +1,36 @@
 {
-    "dir": "ltr",
-    "lang": "Portuguese",
-    "name": "Página Exemplo Pwa",
-    "scope": "/",
+    "name": "MyNotes",
+    "short_name": "Notes",
+    "icons": [
+        {
+            "src": "img/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }, {
+          "src": "img/icons/icon-144x144.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        }, {
+          "src": "img/icons/icon-152x152.png",
+          "sizes": "152x152",
+          "type": "image/png"
+        }, {
+          "src": "img/icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }, {
+          "src": "img/icons/icon-256x256.png",
+          "sizes": "256x256",
+          "type": "image/png"
+        }, {
+          "src": "img/icons/icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }],
+    "start_url": "index.html",
     "display": "standalone",
-    "default_locale": "pt_br",
-    "chrome_ui_overrides": {
-        "bookmarks_ui": {
-            "remove_button": "true",
-            "remove_bookmark_shortcut": "true"
-        }
-    },
-    "start_url": "https://ahcornocyam.github.io/pwa-mobile-example/index.html",
-    "short_name": "Pwa",
-    "theme_color": "#2196f3",
-    "description": "",
-    "orientation": "portrait",
-    "background_color": "#2196f3",
-    "related_applications": [],
-    "prefer_related_applications": false,
-    "icons": [{
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/coins_32_32.png",
-            "sizes": "32x32",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/city_512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/e949f3cb-4b08-51e3-f245-a9da3ebd3cd2.webPlatform.png",
-            "sizes": "44x44",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/5251467c-3370-a5b9-2d95-38377d5003ca.webPlatform.png",
-            "sizes": "48x48",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/23b2e5fb-fd2d-e22b-2491-a7f3763f8091.webPlatform.png",
-            "sizes": "1240x600",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/97101f31-1d00-b6ff-a4a4-9929e1fa776e.webPlatform.png",
-            "sizes": "300x300",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/0c08bdb0-9ecd-07d0-9d20-e43d63726f3a.webPlatform.png",
-            "sizes": "150x150",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/16443a6a-17a1-9388-e4d7-aa51df57fdf8.webPlatform.png",
-            "sizes": "88x88",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/50272015-1232-cc13-bedc-00d03c098907.webPlatform.png",
-            "sizes": "24x24",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/a2616c65-28ec-740b-50c9-0389f3c9bdb7.webPlatform.png",
-            "sizes": "50x50",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/bd8edc64-2fce-7603-7fb8-cb975a0690de.webPlatform.png",
-            "sizes": "620x300",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/f6a1186f-f248-f7b1-c0f9-91228b2fe61f.webPlatform.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/01c4af7d-9c7c-8fd9-1707-439c9f9e0205.webPlatform.png",
-            "sizes": "144x144",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/e92482b3-768d-ea34-efcd-6fdd7a94a1b0.webPlatform.png",
-            "sizes": "96x96",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/7a3665c9-d525-e4db-fcc3-963e24996f0c.webPlatform.png",
-            "sizes": "72x72",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/36403dbc-079d-33e4-5676-d11c18bab178.webPlatform.png",
-            "sizes": "36x36",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/ios-appicon-1024-1024.png",
-            "sizes": "1024x1024",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/b750c053-fb6d-8f81-5bc0-b865275779a3.webPlatform.png",
-            "sizes": "180x180",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/ced3ecbe-b683-fc92-bb7e-f2e3876eff5b.webPlatform.png",
-            "sizes": "152x152",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/15cc2645-b6bc-3b39-f511-04a780be6cef.webPlatform.png",
-            "sizes": "120x120",
-            "type": "image/png"
-        },
-        {
-            "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/dc9afd53-0276-b686-97a9-96e4a079d83d.webPlatform.png",
-            "sizes": "76x76",
-            "type": "image/png"
-        }
-    ]
+    "background_color": "#607d8b",
+    "theme_color": "#607d8b",
+    "gsm_sender_id": "103953800507",
+    "gsm_user_visible_only": true
 }
