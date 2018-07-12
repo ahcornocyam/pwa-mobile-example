@@ -4,6 +4,13 @@
     "name": "Página Exemplo Pwa",
     "scope": "/",
     "display": "standalone",
+    "default_locale": "pt_br",
+    "chrome_ui_overrides": {
+        "bookmarks_ui": {
+            "remove_button": "true",
+            "remove_bookmark_shortcut": "true"
+        }
+    },
     "start_url": "https://ahcornocyam.github.io/pwa-mobile-example/index.html",
     "short_name": "Pwa",
     "theme_color": "#2196f3",
@@ -12,8 +19,7 @@
     "background_color": "#2196f3",
     "related_applications": [],
     "prefer_related_applications": false,
-    "icons": [
-        {
+    "icons": [{
             "src": "https://ahcornocyam.github.io/pwa-mobile-example/img/coins_32_32.png",
             "sizes": "32x32",
             "type": "image/png"
