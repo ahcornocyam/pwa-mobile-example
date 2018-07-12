@@ -4,7 +4,7 @@
     "name": "Condsis …",
     "scope": "/",
     "display": "standalone",
-    "start_url": "http://localhost:8080/condsis/pages/login/index.html",
+    "start_url": "index.html",
     "short_name": "Condsis …",
     "theme_color": "#2196f3",
     "description": "",
