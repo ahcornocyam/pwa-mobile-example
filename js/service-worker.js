@@ -3,7 +3,6 @@ var filesToCache = [
     '/',
     '/img/',
     '/index.html',
-    '/js/app.js'
 ];
 
 self.addEventListener("install", function (e) {
