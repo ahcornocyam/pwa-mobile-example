@@ -1,0 +1,27 @@
+{
+    "dir": "ltr",
+    "lang": "Portuguese",
+    "name": "Condsis …",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "http://localhost:8080/condsis/pages/login/index.html",
+    "short_name": "Condsis …",
+    "theme_color": "#2196f3",
+    "description": "",
+    "orientation": "portrait",
+    "background_color": "#2196f3",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "img/coins_32_32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "img/city_512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
