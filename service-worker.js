@@ -1,7 +1,6 @@
 var cacheName = "dp-pwa";
 var filesToCache = [    
     '/',
-    './img/',
     './index.html',
 ];
 
