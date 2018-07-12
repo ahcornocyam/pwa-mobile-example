@@ -1,8 +1,8 @@
 var cacheName = "dp-pwa";
 var filesToCache = [    
     '/',
-    '/img/',
-    '/index.html',
+    'img/',
+    'index.html',
 ];
 
 self.addEventListener("install", function (e) {
