@@ -38,10 +38,4 @@ self.addEventListener("fetch", function(e) {
   );
 });
 
-var deferredPrompt;
 
-window.addEventListener('beforeinstallprompt', function(e) {
-  e.preventDefault();
-  deferredPrompt = e;
-});
-console.log(deferredPrompt);
