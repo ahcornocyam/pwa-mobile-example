@@ -25,6 +25,7 @@ self.addEventListener("activate", function(e) {
 });
 self.addEventListener("fetch", function(e) {
   console.log("fetch", e.request.url);
+  prompt("beforeinstallprompt");
   e.respondWith(
     caches
       .match(e.request)
