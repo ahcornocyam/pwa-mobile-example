@@ -3,12 +3,13 @@ let filesToCache = [
   "/",
   "./offline.html",
   "./styles.css",
-  "./images/icons/android-chrome-48x48.png",  
+  "./images/icons/android-chrome-48x48.png",
   "./images/icons/android-chrome-72x72.png",
   "./images/icons/android-chrome-96x96.png",
   "./images/icons/android-chrome-144x144.png",
   "./images/icons/android-chrome-192x192.png",
-  "./images/icons/android-chrome-512x512.png"
+  "./images/icons/android-chrome-512x512.png",
+  "./images/icons/exclamation-triangle-solid.png"
 ];
 
 self.addEventListener('beforeinstallprompt', function (e) {
@@ -35,7 +36,7 @@ self.addEventListener("install", function (e) {
 });
 self.addEventListener("activate", function (e) {
   console.log("service worker active");
-  console.log(e);
+  console.log(e);  
 });
 self.addEventListener("fetch", function (e) {
   console.log("fetch", e.request.url);

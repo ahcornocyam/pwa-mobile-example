@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>    
     <meta charset="UTF-8">
     <meta name="mobile-web-app-capable" content="yes">
@@ -13,6 +12,7 @@
     <title>Condsis</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="512x512" href="./images/icons/android-chrome-512x512.png">    
 </head>
 
 <body>
