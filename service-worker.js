@@ -3,18 +3,12 @@ let filesToCache = [
   "/",
   "./offline.html",
   "./styles.css",
-  "./images/icons/android-chrome-48x48.png",
-  "./images/icons/android-chrome-72x72.png",
-  "./images/icons/android-chrome-96x96.png",
-  "./images/icons/android-chrome-144x144.png",
-  "./images/icons/android-chrome-192x192.png",
-  "./images/icons/android-chrome-512x512.png",
-  "./images/icons/exclamation-triangle-solid.png"
+  "./images/icons/exclamation-triangle-solid.png",
+  
 ];
 
 self.addEventListener('beforeinstallprompt', function (e) {
   e.userChoice.then(function (choiceResult) {
-    console.log(choiceResult.outcome);
     if (choiceResult.outcome == 'dismissed') {
       console.log('evento foi cancelado pelo usuario');
     } else {

@@ -11,8 +11,7 @@
     <meta name="msapplication-TileColor" content="#2c94fd">   
     <title>Condsis</title>
     <link rel="stylesheet" href="./styles.css">
-    <link rel="manifest" href="manifest.json">
-    <link rel="icon" sizes="512x512" href="./images/icons/android-chrome-512x512.png">    
+    <link rel="manifest" href="manifest.json"> 
 </head>
 
 <body>
@@ -22,6 +21,7 @@
         </h1>
 
     </div>
+    <!-- <script src="./pwabuilder-sw-register.js" defer async></script> -->
     <script defer async>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker

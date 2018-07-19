@@ -1,0 +1,24 @@
+fiz duas opções de service-worker
+todas as imagens estão salvas lá.
+o q ta comentado em index.php é oq foi criado pelo pwa-builder mas ele nao fez a instalação dos arquivos
+esse usa os arquivos pwabuilder-sw-register.js e pwabuilder-sw.js
+
+service-worker.js é o q fiz anteriormente e estava funcionando. e deixei este ativado por padrão
+e o script q usa este arquivo é o q está inline.
+
+para usar,
+coloque :
+na pagina index.php
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="application-name" content="Condsis">
+<meta name="theme-color" content="#2c94fd" />
+<meta name="msapplication-TileColor" content="#2c94fd">
+<link rel="manifest" href="manifest.json"> 
+
+os arquivos de service-worker e manifest tem q na mesma pasta da index.
+o styles.css q criei foi mais pra estilizar o offline e login.php, já q nao teve jeito
+de usar arquivos com extenção xhtml.
